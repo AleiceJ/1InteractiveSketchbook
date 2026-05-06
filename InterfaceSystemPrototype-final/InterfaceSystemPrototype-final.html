@@ -2,17 +2,58 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Interface System Prototype - Week 3</title>
+    <title>Interface System Prototype - Final</title>
     </head>
 <!--p5 corre -->
-<script src="js/InterfaceSystemPrototype-Week3.js"></script>
+<!--p5 core -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.min.js"defer></script>
+
+<!-- p5 sound -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/addons/p5.sound.min.js" defer></script>
+
+<!--external CSS -->
+
+<!-- <link rel="stylesheet" href="css/style.css"> -->
+<script src="js/InterfaceSystemPrototype-final.js"></script>
 </head>
  <body>
 
-<h1>Week 3- Reflection</h1>
-<b1> On the desktop landing page, I added a horizontal navigation bar (Home, Sketches, Micro-Project, Reading Reflections, Figma process), that shows across all pages. Below that, content is previewed in sections  where users can click into specific work. On the mobile page, it is more simplified using buttons and a hamburger menu. This allows users to access the same sections in a way that fits a smaller screen. Within pages, navigation continues through repeated grid layouts, where each item is clickable and can take you to a specific project or sketch. The hierarchy logic is established through both typography and layout. The larger headings and section titles define primary areas. I included supporting texts and boxes to input images which provides consistency across pages. On the micro-project page, the hierarchy becomes more structured through sequencing. I labeled the iterations and placed them in order from 1-4 and included the final project and reflection. On the sketchbook page, a grid system is used where each sketch is given the same "style" which helps to organize it more clearly. Desigining the mobile pages first helped to simplify what is needed on them, as well as helped me to understand what should be added on the desktop version. On the mobile pages, I had to establish what should be seen first due to the smaller screen size and now things having to be stacked vertically. This helped in realizing what is and isn't neccessary. The mobile influenced the desktop version by expanding to a wider format. This helped to ensure consistency across devices, instead of designing two completely different systems. This design aligns with principles from Norman, Nielsen, and Shneiderman. From Normman's perspective, the interface emphasizes visibility, and affordances. Buttons, navigation links and image boxes clearly indicate where interaction can happen. In Nielsen's Heuristics, the system supports consistency and recognition rather than recall. I amde sure the same navigation and layout patterns repeat across all pages, so users do not have to relearn how to navigate through the site. From Shneiderman's rules, the design focuses on consistency and reducing memory load by keeping the navigation visible and predictable. The structured layouts also help to support a clear sequence, especially in the micro-page where users can follow my process from the beginning to the end. Some parts are still unresolved. I have the hamburger menu on the mobile page, but am unsure if it should also be included on the desktop if I have the navigation going across the screen. I think I could also work on communicating better between sections on the desktop and mobile landing pages. I am not sure if the hierarchy is clearly defined there.
-https://www.figma.com/design/8IZWsLUZzm1JwqsXdeCWA1/Interactive-Sketchbook?node-id=0-1&p=f&t=lr4gzFkeNNHe95Zs-0</b1>
-    <img src="img/img3.png">  <hr>
+<h1>Final Reflection</h1>
+<b1>My navigation model is consistent across all pages, using a top navigation bar on desktop and a hamburger menu on mobile. This creates a  system where users can move between sections without having to relearn the interface, or go through loops to know the status. The hierarchy is established through type (h1–h4) which are different from mobile to desktop. Spatial grouping, like title pages, filters, and content blocks are clearly separated which also contribute to the hierarchy of my interface. I approached the layout mobile-first, which led to vertically stacked content and simplified navigation. This decision reduces complexity and ensures that all interactions are accessible within a smaller screen before scaling up to desktop. 
+
+Using Norman’s framework, I focused on affordances and signifiers through the use of clearly defined buttons, and navigation systems. For example, the rounded rectangles on the home page of the mobile version suggest clickable areas, while underlined navigation items indicate the current page. Feedback is present through state changes like  filters, which helps reduce confusion by showing users what content is currently active. Mapping is used in the relationship between navigation and content, where each category directly corresponds to a page or filtered view. Constraints are intentionally applied by limiting navigation options and organizing content into fixed grids or lists, preventing users from becoming overwhelmed.  
+
+Nielsen’s heuristics were also applied to strengthen usability of the interface. First, I used consistency and standards by repeating layout patterns, navigation placement, and typography across all page types. Second, I focused on visibility of system status through active states in navigation and filters, allowing users to understand where they are within the system. Third, I applied recognition rather than recall by keeping navigation visible and labeling all sections clearly, so users do not need to remember where content is located.  The hamburger menu also supports this by providing access to all sections at any time. 
+
+Shneiderman’s Golden Rules further informed my design decisions. I intentionally maintained consistency across page types, ensuring that users experience the same structure whether they are viewing sketches or micro-projects. I reduced short-term memory load by keeping navigation visible and organizing content into predictable patterns. I also aimed to keep users in control by allowing direct navigation through both top navigation and mobile menus.   
+
+Structurally, the system is designed to prioritize clarity and organization. The use of grayscale allows me to focus on hierarchy, spacing, and interaction without distraction. The grid-based layout on desktop and linear layout on mobile ensure that content is readable and logically ordered. One constraint I worked within was maintaining a balance between quantity  and simplicity: limiting the number of navigation options and standardizing content modules, I created a system that is easy to understand but still scalable from mobile to desktop. I believe my interface demonstrates structural coherence through consistent navigation, clear hierarchy, and intentional use of interaction patterns.   </b1>
+  
+<h2>Navigation Model & System Coherence -15</h2>
+<p>I gave myself a 15 because my system is mostly clear and consistent, but not fully resolved. I established a navigation model using both a top navigation bar and a hamburger menu, which allows users to move between Home, Sketches, Micro-Project, Reading Reflections, and Figma Process. I wanted the line under the bar menu to move when I switched to a different section, but could not figure it out unfortunately.</p>
+
+<h2>Hierarchy & Mobile-First Logic - 20</h2>
+<p> I gave full points because I intentionally designed mobile-first and then expanded to desktop. The hierarchy is clearly defined through typography and spacing, with page titles, filters, and content blocks organized in a way that is readable on smaller screens.   </p>
+
+<h2>Explain how hierarchy survives compression and expands across contexts. - 15</h2>
+<p>I gave full points because the system holds up across both mobile and desktop. On mobile, content is linear and stacked, while on desktop it expands into grid layouts. The same hierarchy (title → filter → content) remains consistent, meaning users can understand the structure regardless of screen size.</p>
+
+<h2>Theoretical Integration (Norman / Nielsen / Shneiderman)-12</h2>
+<p>I gave myself a 12 because I did apply these frameworks, but not fully to their depth. I used affordances and signifiers through buttons and labeled navigatio, and applied Nielsen’s heuristics like consistency and visibility of system status. I also incorporated Shneiderman’s rules such as consistency and reducing memory load. However, I feel like it can be more clearly executed.</p>
+
+<h2>Cross-Page Consistency-10</h2>
+<p>I gave full points because all pages follow the same structural system from desktop to mobile.</p>
+
+<h2>Risk & Structural Ambition-5</h2>
+<p>I gave full points because the page I have now is tremendously different from the starting point. I moved from a single-page sketchbook to a multi-page system.</p>
+
+<h2>Iterative Development-8</h2>
+<p>I gave an 8 because I made clear improvements from previous versions, especially in organization and navigation. However, some areas could be further refined.</p>
+
+<h2>Participation & Critique Engagement-4</h2>
+<p>I gave full points because I actively incorporated feedback into my revisions and gave feedback in group critiques.</p>
+<a href="https://www.figma.com/proto/8IZWsLUZzm1JwqsXdeCWA1/Interactive-Sketchbook?node-id=37-2&p=f&t=tqcspwaeDOpqkgJd-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=37%3A2&show-proto-sidebar=1" target="_blank">View Prototype</a>
+
 
    <hr>
    </body>  
