@@ -1,0 +1,7 @@
+{
+    "builder.serverUrl": "https://www.figma.com/design/8IZWsLUZzm1JwqsXdeCWA1/Interactive-Sketchbook?m=auto&t=l2cQzynZaJJWEMnq-6",
+    "builder.command": "",
+    "builder.runDevServer": false,
+    "builder.autoDetectDevServer": true,
+    "builder.launchType": "editor"
+}

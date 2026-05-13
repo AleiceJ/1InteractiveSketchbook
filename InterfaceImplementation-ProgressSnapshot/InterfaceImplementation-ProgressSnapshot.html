@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Interface System Prototype - Final</title>
+    </head>
+<!--p5 corre -->
+<!--p5 core -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.min.js"defer></script>
+
+<!-- p5 sound -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/addons/p5.sound.min.js" defer></script>
+
+<!--external CSS -->
+
+<!-- <link rel="stylesheet" href="css/style.css"> -->
+<script src="js/InterfaceImplementation-ProgressSnapshot.js"></script>
+</head>
+ <body>
+
+<h1> Structual Status </h1>
+<p> Currently the basic structure of the interface has been implemented using HTML and CSS. The header contains my name and the title “interactive sketchbook “ is in place.  The divider lines and navigation bar has been successfully translated which distributes each category evenly across the page. This is probably the strongest structural element working so far. 
+
+There is also some hierarchy within this page. I have a header followed by the navigation and then the content sections which all have different fonts type and sizes. The use of the divider lines also helps to reinforce the hierarchy. 
+
+ I am having trouble trying to place the words: “sketches” and “projects” exactly where my Figma sketches and projects are. They are not properly spaced and currently overlap other items of the text. I think this is because of the translation with the plugin from Figma to VS code, but I’m still trying to work that out.  I have also not yet implemented the sections where there were pictures and boxes to show the content from the Figma page. 
+
+ I think my Figma logic still holds in terms of visual grouping and hierarchy but breaks when translated using the plug in. I have to go back and rework every line to be translated correctly which takes a very long time, but I think the repetition of each line being so similar is helping me to better understand it. </p>
+<h2>Translation Challenges</h2>
+<p>The biggest challenge in translation was realizing that what the plugin generated is not a direct use of what CSS can do, so I had to change a lot of the code and try to understand the code Figma is using and translate that into the code VS code uses. 
+
+ I expected that at least Figma would have the correct positioning so that I could easily just fix font in hierarchy, but it did not.  At first when going through each line of code a lot of the words were stacking on top of each other. I learned that Figma uses absolute positioning which doesn't really translate well into VS code.   
+
+I also was surprised that I had to work with HTML and CSS kind of simultaneously when writing the code for this. I assumed that it would be more similar to working with JS where I only had to write the base code in HTML and link those together and everything would then be in JS but that's not the case when working with CSS.  it adds another layer of coding which I feel like takes a longer time and is more confusing to me. I’m having a hard time relating the two and writing code in CSS that can translate to HTML so that it shows up. 
+
+ Moving forward I will try to include the boxes so that I have the overall layout and work on fixing the position of the words that are stacked on each other. </p>
+   <hr>
+   </body>  

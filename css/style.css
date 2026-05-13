@@ -1,0 +1,493 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+  font-size: 100%;
+  /* leave this as is, change in the media query for mobile size */
+}
+body {
+    min-height: 100dvh;
+    width: 100%;
+    /* leave the height, width as is*/
+
+   
+}
+/* media query is to add code specific to mobile devices, any thin included within the query will 
+only apply to screen sizes less that the max-width, in this case 600px */
+
+@media (max-width: 600px) {
+   html {
+       font-size: 80%;
+   }
+
+    
+}
+
+/* Landing Page-desktop */
+.landing-page { 
+position: relative;
+}
+
+/* Line 19 */
+.line { 
+width: 100%;
+border-top: 2px solid #000000;
+position: absolute;
+top: 122px;
+left: 0;
+}
+
+/* Line 21 */
+.line-2 {
+position: absolute;
+width: 100%;
+left: 0;
+top: 560px;
+border-top: 2px solid #000000;
+}
+
+
+/* ALEICE J. */
+.logo{
+position: absolute;
+width: 369px;
+left: 40px;
+top: 39px;
+font-family: Arial, sans-serif;
+font-size: 2rem;
+font-weight:700;
+}
+.section-title {
+font-family: 'Instrument Sans', sans-serif;
+font-weight: 500;
+font-size: 36px;
+text-align: center;
+top: 155px;
+left: 263px;
+color: #000000;
+}
+.nav {
+  position: absolute;
+  top: 155px;
+  width: 100%;
+
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-item {
+  font-family: 'Karla', sans-serif;
+  font-size: 24px;
+  text-align: center;
+  color: black;
+}
+
+
+
+
+
+/* READING REFLECTIONS */
+.reading-reflections {
+position: absolute;
+left: 856px;
+top: 155px;
+
+/* h3 subheader */
+font-family: 'Karla';
+font-size: 24px;
+text-align: center;
+color: #000000;
+}
+
+
+/* SKETCHES */
+.sketches {
+position: absolute;
+left: 393px;
+top: 155px;
+/* h3 subheader */
+font-family: 'Karla';
+font-size: 24px;
+text-align: center;
+color: #000000;
+}
+/*h1 header */
+.section1-title {
+font-family: 'karla';
+font-weight: 800;
+font-size: 60px;
+text-align: center;
+color: #000000;
+}
+/* MICRO-PROJECT */
+
+position: absolute;
+width: 182px;
+height: 38px;
+left: 615px;
+top: 155px;
+
+/* h3 subheader */
+font-family: 'Karla';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 28px;
+text-align: center;
+
+color: #000000;
+
+
+
+/* Line 20 */
+
+position: absolute;
+width: 63px;
+height: 0px;
+left: 253px;
+top: 193px;
+
+border: 3px solid #000000;
+
+
+/* INTERACTIVE SKETCHBOOK */
+
+position: absolute;
+width: 1038px;
+height: 126px;
+left: 263px;
+top: 27px;
+
+/* h1 header */
+font-family: 'Blinker';
+font-style: normal;
+font-weight: 600;
+font-size: 64px;
+line-height: 77px;
+text-align: center;
+
+color: #000000;
+
+
+
+/* Rectangle 27 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 717px;
+height: 307px;
+left: 722px;
+top: 241px;
+
+background: #D9D9D9;
+border: 1px solid #000000;
+
+
+/* PROJECTS */
+
+position: absolute;
+width: 217px;
+height: 62px;
+left: -6px;
+top: 593px;
+
+/* h2 header */
+font-family: 'Instrument Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 36px;
+line-height: 44px;
+text-align: center;
+
+color: #000000;
+
+
+
+/* Rectangle 8 */
+
+position: absolute;
+width: 321px;
+height: 207px;
+left: 37px;
+top: 655px;
+
+background: #D9D9D9;
+border-radius: 11px;
+
+
+/* Rectangle 28 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 321px;
+height: 78px;
+left: 37px;
+top: 874px;
+
+background: #FFFFFF;
+border: 1px solid #000000;
+border-radius: 7px;
+
+
+/* Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation u */
+
+position: absolute;
+width: 308px;
+height: 38px;
+left: 37px;
+top: 904px;
+
+/* body */
+font-family: 'Karla';
+font-style: normal;
+font-weight: 300;
+font-size: 11px;
+line-height: 13px;
+text-align: center;
+
+color: #000000;
+
+
+
+/* Rectangle 31 */
+
+position: absolute;
+width: 321px;
+height: 207px;
+left: 1081px;
+top: 655px;
+
+background: #D9D9D9;
+border-radius: 11px;
+
+
+/* Rectangle 32 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 321px;
+height: 78px;
+left: 1081px;
+top: 874px;
+
+background: #FFFFFF;
+border: 1px solid #000000;
+border-radius: 7px;
+
+
+/* SKETCH 1 */
+
+position: absolute;
+width: 113px;
+height: 23px;
+left: 37px;
+top: 875px;
+
+/* h3 subheader */
+font-family: 'Karla';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 28px;
+text-align: center;
+
+color: #000000;
+
+
+
+/* Rectangle 29 */
+
+position: absolute;
+width: 321px;
+height: 207px;
+left: 561px;
+top: 655px;
+
+background: #D9D9D9;
+border-radius: 11px;
+
+
+/* Rectangle 30 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 321px;
+height: 78px;
+left: 561px;
+top: 874px;
+
+background: #FFFFFF;
+border: 1px solid #000000;
+border-radius: 7px;
+
+
+/* READING REFLECTION 2 */
+
+position: absolute;
+width: 264px;
+height: 23px;
+left: 561px;
+top: 876px;
+
+/* h3 subheader */
+font-family: 'Karla';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 28px;
+text-align: center;
+
+color: #000000;
+
+
+
+/* Line 22 */
+
+position: absolute;
+width: 176px;
+height: 0px;
+left: 14px;
+top: 642px;
+
+border: 1px solid #000000;
+
+
+/* FIGMA PROCESS 3 */
+
+position: absolute;
+width: 198px;
+height: 23px;
+left: 1085px;
+top: 877px;
+
+/* h3 subheader */
+font-family: 'Karla';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 28px;
+text-align: center;
+
+color: #000000;
+
+
+
+/* Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud */
+
+position: absolute;
+width: 277px;
+height: 38px;
+left: 577px;
+top: 906px;
+
+/* body */
+font-family: 'Karla';
+font-style: normal;
+font-weight: 300;
+font-size: 11px;
+line-height: 13px;
+text-align: center;
+
+color: #000000;
+
+
+
+/* Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud */
+
+position: absolute;
+width: 275px;
+height: 38px;
+left: 1092px;
+top: 906px;
+
+/* body */
+font-family: 'Karla';
+font-style: normal;
+font-weight: 300;
+font-size: 11px;
+line-height: 13px;
+text-align: center;
+
+color: #000000;
+
+
+
+/* SKETCHES */
+
+position: absolute;
+left: -93px;
+top: 251px;
+
+/* h2 header */
+font-family: 'Instrument Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 36px;
+line-height: 44px;
+text-align: center;
+
+color: #000000;
+
+
+
+/* Lorem ipsum dolor sit amet, consectetur adipiscing sectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. */
+
+position: absolute;
+width: 593px;
+height: 141px;
+left: 24px;
+top: 338px;
+
+/* h3 subheader */
+font-family: 'Karla';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 28px;
+text-align: center;
+
+color: #000000;
+
+
+
+/* Rectangle 40 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 111px;
+height: 45px;
+left: 1389px;
+top: 68px;
+
+/* M3/white */
+background: #FFFFFF;
+border: 0.5px solid #000000;
+border-radius: 20px;
+
+
+/* Search */
+
+position: absolute;
+width: 28px;
+height: 28px;
+left: 1460px;
+top: 75px;
+
+
+
+/* Icon */
+
+position: absolute;
+left: 12.5%;
+right: 12.5%;
+top: 12.5%;
+bottom: 12.5%;
+
+border: 3.5px solid #1E1E1E;
